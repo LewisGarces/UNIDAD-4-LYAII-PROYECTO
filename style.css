@@ -1,0 +1,102 @@
+body {
+    background-image: url('https://image.slidesdocs.com/responsive-images/background/conceptual-neon-lit-brick-wall-generated-in-3d-powerpoint-background_51e39b6977__960_540.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+}
+
+h1, h3 {
+    text-shadow: 2px 2px 10px #000;
+}
+
+.label-grande {
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 8px #000;
+}
+
+.icono-grande i {
+    font-size: 4rem;
+}
+
+.fab.fa-js-square {
+    color: #FFD700; /* Amarillo */
+    text-shadow: 2px 2px 8px #000;
+}
+
+.fab.fa-php {
+    color: #6A7BFF; /* Color más claro para PHP */
+    text-shadow: 2px 2px 8px #000;
+}
+
+small {
+    font-size: 1rem; /* Aumento del tamaño de los textos pequeños */
+}
+
+textarea {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 2px solid #fff;
+    color: #000000;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s;
+    resize: none;
+    padding: 10px;
+}
+
+#entradaJS {
+    background-color: #FFD700; /* Amarillo */
+    color: #000;
+    border: 2px solid #FFD700; /* Bordes amarillos */
+}
+
+#salidaPHP {
+    background-color: #ADD8E6; /* Azul claro */
+    color: #000000;
+    border: 2px solid #ADD8E6; /* Bordes azules claros */
+}
+
+textarea:focus,
+input:focus {
+    box-shadow: 0 0 10px #FFFF00; /* Resplandor amarillo en los textos */
+    transform: scale(1.05); /* Aumentar el tamaño del input cuando se hace foco */
+}
+
+#entradaJS:focus,
+#salidaPHP:focus {
+    border-color: #FFFF00; /* Bordes en amarillo neón cuando se hace foco */
+}
+
+input:focus {
+    box-shadow: 0 0 10px #FFFF00; /* Resplandor amarillo en los inputs */
+    transform: scale(1.05); /* Aumentar el tamaño del input cuando se hace foco */
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    transition: transform 0.2s ease;
+    border-radius: 5px;
+}
+
+.btn-gradiente-rojo {
+    background: linear-gradient(45deg, #B22222, #8B4513); /* Rojo oscuro y amarillo oscuro */
+}
+
+.btn-gradiente-naranja {
+    background: linear-gradient(45deg, #006400, #FF8C00); /* Verde oscuro y naranja oscuro */
+}
+
+.btn-gradiente-azul {
+    background: linear-gradient(45deg, #00008B, #8B008B); /* Azul marino y rosa oscuro */
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.btn i {
+    margin-right: 10px;
+}
